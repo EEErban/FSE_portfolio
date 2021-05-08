@@ -58,6 +58,11 @@ body {
     border-radius: 10%;
     margin: 1rem;
   }
+
+  .intro-left :hover {
+    filter: blur(5px);
+    transition: 0.5s ease-out;
+}
   
   .full-height {
     height: 100%;
