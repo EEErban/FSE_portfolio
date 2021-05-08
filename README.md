@@ -16,7 +16,8 @@ Key points was to show:
 
 <img src="assets/images/screenshots/Screen Shot web.png"> Web browser view
 
-<img src="assets/images/screenshots/Screen Shot responsive.png"> Responsive view
+<img src="assets/images/screenshots/Screen Shot responsive.png"> 
+Responsive view
 
 
 ## LINK
