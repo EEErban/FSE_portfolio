@@ -16,13 +16,228 @@
 <!--main page-->
 
 <body>
-    
-<!--page containers-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4">left</div>
-            <div class="col-md-8">right</div>
+
+<div class="background"></div>
+    <div class="intro-left">
+      <div class="container-fluid full-height">
+        <div class="row text-center align-items-center full-height">
+          <div class="col">
+            <img src="assets/images/profile.jpg" alt="Farah S.E profile photo" class="avatar" />
+
+            <!--name graphic-->
+            <p class="display-6">
+                <img src="assets/images/head graphic.jpg" id="name-graphic">
+            </p>
+
+            <p class="headings">WEB + DESIGN</p>
+          </div>
         </div>
+      </div>
+    </div>
+
+     <!--navbar-->
+
+     <nav class="navbar">
+        <ul class="navbar">
+            <li><a href="#about">[about]</a></li>
+            <li><a href="#projects">[projects]</a></li>
+            <li><a href="#journal">[journal]</a></li>
+            <li><a href="#contact">[contact]</a></li>
+        </ul>
+   </nav>
+
+    <!--page containers-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-8 panel-right px-0">
+          <section class="quote">
+            <figure>
+              <blockquote class="blockquote">
+                <p>
+                  “God is in the details.”
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Mies van der Rohe <cite title="Source Title">1960</cite>
+              </figcaption>
+            </figure>
+          </section>
+
+          <section class="intro">
+            <h1 class="display-4">Welcome to my world</h1>
+            <h2 id="about" class="display-6 mb-5">[ABOUT]</h2>
+
+            <p>
+              The longer I live, the more beautiful life becomes. If you
+              foolishly ignore beauty, you will soon find yourself without it.
+              Your life will be impoverished. But if you invest in beauty, it
+              will remain with you all the days of your life.
+            </p>
+          </section>
+
+          <section id="projects" class="projects">
+            <h2 class="display-6 headings">[PROJECTS]</h2>
+            <div class="container-fluid">
+              <div class="row gy-5">
+                <div class="col-md-6">
+                  <img
+                    src="img/g1.jpg"
+                    alt="Portfolio image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="img/g2.jpg"
+                    alt="Portfolio image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="img/g3.jpg"
+                    alt="Portfolio image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="img/g4.jpg"
+                    alt="Portfolio image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="img/g5.jpg"
+                    alt="Portfolio image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="img/g6.jpg"
+                    alt="Portfolio image"
+                    class="img-fluid thumbnail"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="float-right mt-3 px-3">See more ></a>
+          </section>
+
+          <section class="blog">
+            <h2 id="journal" class="display-6 mb-5 headings">[JOURNAL]</h2>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="img/b1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Which tools I use for design</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet...
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary float-right"
+                      >
+                        Read more...
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="img/b2.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">Why light design matters?</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet...
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary float-right"
+                      >
+                        Read more...
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="img/b3.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title">TOP 10 design ideas in 2021</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet...
+                      </p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary float-right"
+                      >
+                        Read more...
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="float-right mt-3 px-3">Read more ></a>
+          </section>
+
+          <section class="contact">
+            <h2 id="contact" class="display-6 mb-5 headings">[CONTACT]</h2>
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="John..."
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="mb-3">
+                <label for="message" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+            </div>
+            <button type="button" class="btn btn-outline-dark float-right">
+              Send
+            </button>
+          </section>
+
+          <footer class="footer">
+            <div class="container-fluid text-center">
+            <span class="text-muted">
+                Build by FSE Industries
+            </span>
+            </div>
+          </footer>
+        </div>
+      </div>
     </div>
  
     
